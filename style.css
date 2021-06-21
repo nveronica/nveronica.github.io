@@ -1,0 +1,14 @@
+ul{
+	list-style-type: none;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #F6D5E5;
+}
+#container{
+	background-color: #E1E1E2;display: block;
+	height: 100%;
+}
