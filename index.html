@@ -8,8 +8,24 @@
 <title>Home</title>
 </head>
 <body>
-	<div th:insert="fragments/header.html :: header">header</div>
-	<div th:insert="fragments/container.html :: container"></div>
+	<header>
+		<nav id="nav" class="navbar navbar-dark bg-dark menu">
+			<div class="container-fluid pt-2">
+				<ul>
+					<li class="nav-item p-2 me-2"><a href="/">Home</a></li>
+					<li class="nav-item p-2 me-2"><a href="/about.html">About Me</a></li>
+				</ul>
+			</div>	
+		</nav>
+	</header>
+	<div id="container" class="container-fluid" th:fragment="container">
+		<div class="row">
+			<a href="https://github.com/nveronica">GitHub</a>
+			<a href="https://www.linkedin.com/in/nagy-veronika/">LinkedIn</a>
+			<a th:href="@{/receipts}">REST api example with H2 database</a>
+		</div>
+	
+	</div>
 	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
 	<script th:src="@{/webjars/popper.js/2.9.2/umd/popper.min.js}"></script>
 	<script th:src="@{/webjars/bootstrap/5.0.1/js/bootstrap.min.js}"></script>
