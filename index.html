@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Home</title>
-</head>
-<body>
-	<header>
-		<nav id="nav" class="navbar navbar-dark bg-dark menu">
-			<div class="container-fluid pt-2">
-				<ul>
-					<li class="nav-item p-2 me-2"><a href="/">Home</a></li>
-					<li class="nav-item p-2 me-2"><a href="/about.html">About Me</a></li>
-				</ul>
-			</div>	
-		</nav>
-	</header>
-	<div id="container" class="container-fluid" th:fragment="container">
-		<div class="row">
-			<a href="https://github.com/nveronica">GitHub</a>
-			<a href="https://www.linkedin.com/in/nagy-veronika/">LinkedIn</a>
-			<a th:href="@{/receipts}">REST api example with H2 database</a>
-		</div>
-	
-	</div>
-	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
-	<script th:src="@{/webjars/popper.js/2.9.2/umd/popper.min.js}"></script>
-	<script th:src="@{/webjars/bootstrap/5.0.1/js/bootstrap.min.js}"></script>
+  <head>
+    <meta charset="UTF-8" />
 
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="C:/Users/Black/Documents/Data2/nveronica.github.io/fontawesome-free-5.15.4-web/css/all.css"
+    />
+    <title>Nagy Veronika</title>
+  </head>
+  <body>
+	  
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About Me</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="home">
+        <h1>Hello, I am Veronika Nagy.</h1>
+        <img id="me-img" src="/rainbow.png" alt="" />
+		<h1>Junior software developer</h1>
+      </section>
+      <section id="about">
+        <h1>About</h1>
+        <p>
+          Technologies I work with:
+		  <ul>
+			  <li>Java
+				<li>SpringBoot</li>
+			  </li>
+			  <li>JavaScript</li>
+			  <li>Html</li>
+			  <li>CSS</li>
+			  <li>SQL</li>
+		  </ul>	
+        </p>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+		<ul>
+			<li>
+				<a href="https://github.com/nveronica">GitHub</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/nagy-veronika/">LinkedIn</a>
+			</li>
+			<li>veronika_nagy@outlook.hu</li>
+		</ul>
+			<!--<a th:href="@{/receipts}">REST api example with H2 database</a></p>	-->		
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
 
+  </body>
 </html>
