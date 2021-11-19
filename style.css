@@ -10,11 +10,9 @@ body{
 	color: aliceblue;
 }
 .container{
-<<<<<<< HEAD
+
 	width:100%;
-=======
 	width: 100%;
->>>>>>> e5b13f3605ce9ff00027799a6c87af06988298d3
 	height: 100%;
 }
 .navbar{
@@ -22,11 +20,8 @@ body{
 	top: 0;
 	z-index: 1;
 	display: flex;
-<<<<<<< HEAD
 	width: 65%;
-=======
 	width: 100%;
->>>>>>> e5b13f3605ce9ff00027799a6c87af06988298d3
 	height: 55px;
 }
 .navbar ul{
@@ -44,7 +39,6 @@ body{
 	text-decoration: none;
 	color: #F6D5E5;
 	text-transform: uppercase;
-<<<<<<< HEAD
 }
 .navbar ul li a:hover{
 	color: blueviolet;
@@ -89,7 +83,6 @@ h1{
 	width: 200px;
 	min-width: 100%;
 }
-=======
 }
 .navbar ul li a:hover{
 	color: blueviolet;
@@ -123,4 +116,4 @@ h1{
 #me-img{
 	width: 450px;
 }
->>>>>>> e5b13f3605ce9ff00027799a6c87af06988298d3
+
