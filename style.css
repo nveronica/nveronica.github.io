@@ -31,7 +31,7 @@ body{
 .navbar ul li{
 	margin: 0 1rem;
 	padding: 1rem;
-	
+	list-style-type:none;
 }
 .navbar ul li a{
 	text-decoration: none;
