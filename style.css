@@ -33,6 +33,9 @@ body{
 	padding: 1rem;
 	list-style-type:none;
 }
+.ul li{
+	list-style-type:none;
+}
 .navbar ul li a{
 	text-decoration: none;
 	color: #F6D5E5;
