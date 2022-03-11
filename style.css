@@ -112,4 +112,8 @@ h1{
 #me-img{
 	width: 450px;
 }
-
+#project_list{
+	display:block;
+	height: 420px;
+	
+}
