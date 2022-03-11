@@ -121,10 +121,14 @@ h1{
 .project-li{
 	display:list-item;
 }
-.project{
+.project-item{
 	display: block ;
 	grid-column:1/span 2;
 	grid-row:1; 
+	    height: 300px;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 #projects{
 	display:block;
