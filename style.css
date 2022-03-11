@@ -118,6 +118,9 @@ h1{
 	grid-template-columns: repeat;
 	grid-gap:3rem;
 }
+.project-li{
+	display:list-item;
+}
 .project{
 	display: block ;
 	grid-column:1/span 2;
