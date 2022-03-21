@@ -113,17 +113,6 @@ h1{
 #me-img{
 	width: 450px;
 }
-.projects_list{
-	display: grid;
-	height: 420px;
-	grid-template-columns: repeat;
-	grid-gap:3rem;
-}
-.project_li{
-	display:list-item;
-	grid-column:1/span 1;
-	grid-row:2; 
-}
 .project-item{
 	display: block ;
 	padding: 20px;
